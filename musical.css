@@ -13,5 +13,5 @@ img
   /* Redondeo un poco esquinas de imagenes */
   border-radius: 0.8em;
  /* corro las imágenes más a la derecha para que se vea mejor en celulares*/
-  padding-left: 1em;
+  marging-left: 1em;
 }
