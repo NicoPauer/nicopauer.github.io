@@ -1,0 +1,15 @@
+html, body
+{
+ /* Centro pagina */
+  margin: 0.1em;
+  padding: 0.1em;
+ /* Agrego algo de color */
+  background-color: #df3311;
+  color: #dedeed; 
+}
+
+img
+{
+  /* Redondeo un poco esquinas de imagenes */
+  border-radius: 0.8em;
+}
