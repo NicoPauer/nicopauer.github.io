@@ -8,6 +8,12 @@ html, body
   color: #dedeed; 
 }
 
+a
+{
+ /* saco estilo de subrayado en enlaces para que se vea mejor */
+  text-decoration: none;
+}
+
 div
 {
   /* centro contenido dentro del div */
