@@ -8,6 +8,15 @@ html, body
   color: #dedeed; 
 }
 
+em
+{
+   /* Coloreo fondo donde aparece mi nombre con gris oscuro para que se vea bien
+      con el color palido del texto */
+   background-color: #333333;
+ /* Redondeo bordes para que se vea mejor y mas moderno */
+   border-radius: 0.1em;
+}
+
 a
 {
  /* saco estilo de subrayado en enlaces para que se vea mejor */
