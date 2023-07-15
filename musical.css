@@ -16,6 +16,7 @@ em a
  /* Redondeo bordes para que se vea mejor y mas moderno */
    border-radius: 0.1em;
    text-decoration: none;
+   color: #dedeed; 
 }
 
 a
