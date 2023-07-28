@@ -8,6 +8,13 @@ html, body
   color: #dedeed; 
 }
 
+footer, header
+{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 em a
 {
    /* Coloreo fondo donde aparece mi nombre con gris oscuro para que se vea bien
