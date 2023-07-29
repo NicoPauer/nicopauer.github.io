@@ -19,7 +19,9 @@ mark
 {
   /* Doy un estilo mas cool a los resaltados: Negro con blanco y bordes redondeados recubiertos
      de una fina linea blanca*/
-    backrground-color: #222222;
+    background-color: #222222;
+    margin: 0.1em;
+    padding: 0;
     color: #dddddd;
     border-radius: 0.2em;
     outline-color: #eeeeee;
