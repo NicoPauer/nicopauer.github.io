@@ -15,6 +15,16 @@ footer, header
   padding: 0;
 }
 
+mark
+{
+  /* Doy un estilo mas cool a los resaltados: Negro con blanco y bordes redondeados recubiertos
+     de una fina linea blanca*/
+    backrground-color: #222222;
+    color: #dddddd;
+    border-radius: 0.2em;
+    outline-color: #eeeeee;
+}
+
 em a
 {
    /* Coloreo fondo donde aparece mi nombre con gris oscuro para que se vea bien
