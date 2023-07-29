@@ -20,10 +20,11 @@ mark
   /* Doy un estilo mas cool a los resaltados: Negro con blanco y bordes redondeados recubiertos
      de una fina linea blanca*/
     background-color: #222222;
-    margin: 0.1em;
+    display: ruby-base;
+    margin: 0.2em;
     padding: 0;
     color: #dddddd;
-    border-radius: 0.2em;
+    border-radius: 0.4em;
     outline-color: #eeeeee;
 }
 
