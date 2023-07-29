@@ -10,3 +10,5 @@ enlaces.shift(0);
    y que cada uno aparezca al lector de pantalla como "canción" */
 enlaces.map((enlace) => enlace.setAttribute("aria-labeledby", "canción"));
 enlaces.map((enlace) => enlace.setAttribute("aria-lablel", enlace.title));
+// Agrego mas texto para que se sepan titulo y artista de las canciones con estructura semantica para lectores de pantalla
+enlaces.map((enlace) => enlace.innerHTML = enlace.innerHTML + "<br /><aside><mark>" + enlace.title + "</mark></aside>") 
