@@ -1,5 +1,32 @@
-// Se encarga de complementar informacion de accesibilidad de las canciones y agregar tres nuevas a la grilla
+// Se encarga de complementar informacion de accesibilidad de las canciones y agregar nuevas a la grilla
 
+
+// Objetos para hacer mas facil de mantener el codigo
+class Cancion
+{
+   /*
+     Autor: © 2023 Nicolas Pauer
+     mail: nicolaspauer20@gmail.com
+
+     Permite representar la información
+     de una canción
+   */
+   constructor(nombre, artista)
+   {
+     // Nombre de la cancion   
+      this.nombre = nombre;
+    // Nombre del artista  
+      this.artista = artista;
+    // Enlace de Youtube hacia la canción  
+      this.enlace = "";
+    // Nombre de la imagen relacionada a la cancion
+      this.imagen = "";
+    // Año de lanzamiento de la cancion
+      this.lanzamiento = 1000;
+    // Genero músical de la cancion
+      this.genero = "Música";
+   }
+}
 // Cargo todos los elementos a manipular
 const grillaDeCanciones = document.getElementById("canciones");
 // Obtengo solo enlaces de la grilla de canciones
