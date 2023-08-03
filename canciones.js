@@ -83,7 +83,7 @@ cancion_3.genero = "Rock";
 const cancion_4 = new Cancion("Titanium", "David Guetta ft. Sia");
 cancion_4.enlace = "https://www.youtube.com/watch?v=JRfuAukYTKg&pp=ygUIdGl0YW5pdW0%3D";
 cancion_4.imagen = "titanium.png";
-canicon_4.genero = "Progressive House";
+cancion_4.genero = "Progressive House";
 // Creo objetos visualizadores, uno para cada cancion
 const vista_1 = new Visualizador(cancion_1);
 vista_1.mostrar();
