@@ -33,7 +33,7 @@ const cancion_1 = new Cancion("True Colors", "Sol Camila Lugo");
 cancion_1.enlace = "https://www.youtube.com/watch?v=NFPtI5K9XTI";
 
 const cancion_2 = new Cancion("Europa VII", "La Oreja De Van Gogh");
-canacio_2.enlace = "https://www.youtube.com/watch?v=mNbF4N3_xgI";
+cancion_2.enlace = "https://www.youtube.com/watch?v=mNbF4N3_xgI";
 
 const cancion_3 = new Cancion("No me olvides", "La Beriso");
 cancion_3.enlace = "https://www.youtube.com/watch?v=R_2Q6w_RryY";
