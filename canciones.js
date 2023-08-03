@@ -51,10 +51,12 @@ class Visualizador
       const vista = document.createElement("a");
       vista.setAttribute("aria-labeledby", "canción");
       vista.setAttribute("aria-label", (this.artista + " - " + this.nombre));
+      vista.setAttribute("href", this.enlace);
+      vista.setAttribute("target", "_blank");
       vista.innerHTML = vista.innerHTML + "<br /><aside><mark>" + (this.artista + " - " + this.nombre) + "</mark></aside>";
     // Hago visible el visualizador  
       this.visible = true
-      document.querySelector("#canciones:first").before(vista);
+      document.querySelector("#canciones").before(vista);
    }
 
    ocultar()
