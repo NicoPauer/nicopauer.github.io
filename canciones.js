@@ -27,6 +27,15 @@ class Cancion
       this.genero = "Música";
    }
 }
+// Creo objetos que instancien a cancion de vez en cuando ire agregando mas
+
+const cancion_1 = new Cancion("True Colors", "Sol Camila Lugo");
+cancion.enlace = "https://www.youtube.com/watch?v=NFPtI5K9XTI";
+
+const cancion_2 = new Cancion("Europa VII", "La Oreja De Van Gogh");
+const cancion_3 = new Cancion("No me olvides", "La Beriso");
+// Creo arreglo con objetos que instancian a Cancion
+const canciones = [cancion_1, cancion_2, cancion_3];
 // Cargo todos los elementos a manipular
 const grillaDeCanciones = document.getElementById("canciones");
 // Obtengo solo enlaces de la grilla de canciones
