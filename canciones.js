@@ -58,6 +58,16 @@ class Visualizador
     // Hago visible el visualizador  
       this.visible = true
       const nueva = document.querySelector("#canciones").firstElementChild;
+      if (this.imagen !== "")
+      {
+         // Si hay una imagen la agrego
+           const img = document.createElement('img');
+           img.setAttribute("src", this.imagen);
+           img.setAttribute("width", "300");
+           img.setAttribute("height", "200");
+           img.setAttribute("alt", (this.artista + " - " + this.nombre));
+           nueva.append(img);
+      }
       nueva.append(vista);
    }
 
