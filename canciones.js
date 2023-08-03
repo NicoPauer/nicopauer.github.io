@@ -58,7 +58,7 @@ class Visualizador
     // Hago visible el visualizador  
       this.visible = true
       const nueva = document.querySelector("#canciones").firstElementChild;
-      if (nueva === vista)
+      if (nueva !== vista)
       {
          // Verifico que no halla agregado la vista para que no se duplique
          nueva.before(vista);
