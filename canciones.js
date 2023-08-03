@@ -54,6 +54,7 @@ class Visualizador
       vista.innerHTML = vista.innerHTML + "<br /><aside><mark>" + (this.artista + " - " + this.nombre) + "</mark></aside>";
     // Hago visible el visualizador  
       this.visible = true
+      document.querySelector("#canciones:first").before(vista);
    }
 
    ocultar()
