@@ -66,7 +66,7 @@ class Visualizador
            img.setAttribute("width", "300");
            img.setAttribute("height", "200");
            img.setAttribute("alt", (this.artista + " - " + this.nombre));
-           nueva.append(img);
+           vista.appendChild(img);
       }
       nueva.append(vista);
    }
