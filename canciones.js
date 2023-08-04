@@ -68,7 +68,7 @@ class Visualizador
            img.setAttribute("alt", (this.artista + " - " + this.nombre));
            vista.appendChild(img);
       }
-      nueva.append(vista);
+      nueva.appendChild(vista);
    }
 
    ocultar()
