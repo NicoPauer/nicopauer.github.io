@@ -59,7 +59,7 @@ class Visualizador
       this.visible = true
       const nueva = document.querySelector("#canciones").firstElementChild;
      // if (this.imagen !== "")
-      {
+      //{
          // Si hay una imagen la agrego
            const img = document.createElement('img');
            img.setAttribute("src", this.imagen);
