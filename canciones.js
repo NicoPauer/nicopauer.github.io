@@ -81,14 +81,18 @@ class Visualizador
 
 const cancion_1 = new Cancion("True Colors", "Sol Camila Lugo");
 cancion_1.enlace = "https://www.youtube.com/watch?v=NFPtI5K9XTI";
+cancion_1.genero = "Big Band";
+cancion_1.imagen = "lugo.jpeg";
 
 const cancion_2 = new Cancion("Europa VII", "La Oreja De Van Gogh");
 cancion_2.enlace = "https://www.youtube.com/watch?v=mNbF4N3_xgI";
 cancion_2.genero = "Pop";
+cancion_2.imagen = "europa.png";
 
 const cancion_3 = new Cancion("No me olvides", "La Beriso");
 cancion_3.enlace = "https://www.youtube.com/watch?v=R_2Q6w_RryY";
 cancion_3.genero = "Rock";
+cancion_3.imagen = "olvides.png";
 
 const cancion_4 = new Cancion("Titanium", "David Guetta ft. Sia");
 cancion_4.enlace = "https://www.youtube.com/watch?v=JRfuAukYTKg&pp=ygUIdGl0YW5pdW0%3D";
