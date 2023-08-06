@@ -36,7 +36,7 @@ class Visualizador
     // Nombre de la cancion  
       this.nombre = objeto.nombre;
    // Nombre de la imagen que representa la cancion que está en el mismo directorio   
-      this.imagen = "";
+      this.imagen = objeto.imagen;
    // Enlace hacia la canción por lo general en Youtube   
       this.enlace = objeto.enlace;
    // Artista que interpreta la cancion   
