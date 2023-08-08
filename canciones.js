@@ -98,6 +98,12 @@ const cancion_4 = new Cancion("Titanium", "David Guetta ft. Sia");
 cancion_4.enlace = "https://www.youtube.com/watch?v=JRfuAukYTKg&pp=ygUIdGl0YW5pdW0%3D";
 cancion_4.imagen = "titanium.png";
 cancion_4.genero = "Progressive House";
+
+const cancion_5 = new Cancion("Alone", "Marshmello");
+cancion_5.enlace = "https://www.youtube.com/watch?v=ALZHF5UqnU4";
+cancion_5.imagen = "alone.png";
+cancion_5.genero = "Electro House";
+
 // Creo objetos visualizadores, uno para cada cancion
 const vista_1 = new Visualizador(cancion_1);
 vista_1.mostrar();
@@ -110,6 +116,10 @@ vista_3.mostrar();
 
 const vista_4 = new Visualizador(cancion_4);
 vista_4.mostrar();
+
+const vista_5 = new Visualizador(cancion_5);
+vista_5.mostrar();
+
 // Creo arreglo con objetos que instancian a Cancion
 const canciones = [cancion_1, cancion_2, cancion_3];
 // Cargo todos los elementos a manipular
