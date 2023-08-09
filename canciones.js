@@ -54,7 +54,7 @@ class Visualizador
       vista.setAttribute("href", this.enlace);
       vista.setAttribute("target", "_blank");
       vista.setAttribute("title", (this.artista + " - " + this.nombre));
-      vista.innerHTML = vista.innerHTML + "<br /><aside><mark>" + (this.artista + " - " + this.nombre) + "</mark></aside>";
+      vista.innerHTML = "<br /><aside><mark>" + (this.artista + " - " + this.nombre) + "</mark></aside>" + vista.innerHTML;
     // Hago visible el visualizador  
       this.visible = true
       const nueva = document.querySelector("#canciones");
