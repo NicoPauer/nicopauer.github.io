@@ -68,12 +68,12 @@ class Visualizador
            img.setAttribute("height", "200");
            img.setAttribute("alt", (this.artista + " - " + this.nombre));
            vista.appendChild(img);
+           nueva.appendChild(vista);
       }
       else
       {
          this.visible = false;
       }
-      nueva.appendChild(vista);
    }
 
    ocultar()
@@ -127,7 +127,7 @@ const vista_5 = new Visualizador(cancion_5);
 vista_5.mostrar();
 
 // Creo arreglo con objetos que instancian a Cancion
-const canciones = [cancion_1, cancion_2, cancion_3];
+const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5];
 // Cargo todos los elementos a manipular
 const grillaDeCanciones = document.getElementById("canciones");
 // Obtengo solo enlaces de la grilla de canciones
@@ -139,4 +139,3 @@ enlaces.shift(0);
 enlaces.map((enlace) => enlace.setAttribute("aria-labeledby", "canción"));
 enlaces.map((enlace) => enlace.setAttribute("aria-lablel", enlace.title));
 // Agrego mas texto para que se sepan titulo y artista de las canciones con estructura semantica para lectores de pantalla
-//enlaces.map((enlace) => grillaDeCanciones.innerHTML = grillaDeCanciones.innerHTML + "<br /><aside><mark>" + enlace.title + "</mark></aside>") 
