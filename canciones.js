@@ -133,7 +133,7 @@ const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancio
 // Creo instancias visualizadoras para cada canción y la muestro
 for (vista in canciones)
 {
-   let cancion = new Visualizador(vista);
+   let cancion = new Visualizador(canciones[vista]);
    cancion.mostrar();
 }
 // Cargo todos los elementos a manipular
