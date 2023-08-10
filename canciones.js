@@ -81,6 +81,7 @@ class Visualizador
       // Oculto el visualizador
         this.visible = false;
         const remover = document.querySelector("img[src=" + this.imagen + "]");
+        remover.style = "display: none;";
    }
 }
 // Creo objetos que instancien a cancion de vez en cuando ire agregando mas
@@ -110,24 +111,20 @@ cancion_5.enlace = "https://www.youtube.com/watch?v=ALZHF5UqnU4";
 cancion_5.imagen = "alone.png";
 cancion_5.genero = "Electro House";
 
-// Creo objetos visualizadores, uno para cada cancion
-const vista_1 = new Visualizador(cancion_1);
-vista_1.mostrar();
+const cancion_6 = new Cancion("Yas Gagliardi", "Mi Futuro es Hoy");
+cancion_6.enlace = "";
+cancion_6.imagen = "futuro.png";
+cancion_6.genero = "Pop";
 
-const vista_2 = new Visualizador(cancion_2);
-vista_2.mostrar();
-
-const vista_3 = new Visualizador(cancion_3);
-vista_3.mostrar();
-
-const vista_4 = new Visualizador(cancion_4);
-vista_4.mostrar();
-
-const vista_5 = new Visualizador(cancion_5);
-vista_5.mostrar();
+const cancion_7 = new Cancion("Luck Ra", "La Morocha");
+cancion_7.enlace = "";
+cancion_7.imagen = "morocha.png";
+cancion_7.genero = "Cuarteto";
 
 // Creo arreglo con objetos que instancian a Cancion
-const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5];
+const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7];
+// Creo instancias visualizadoras para cada canción y la muestro
+canciones.map((new Visualizador(this)).mostrar()); 
 // Cargo todos los elementos a manipular
 const grillaDeCanciones = document.getElementById("canciones");
 // Obtengo solo enlaces de la grilla de canciones
