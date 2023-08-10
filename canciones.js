@@ -123,7 +123,7 @@ cancion_7.lanzamiento = 2023
 cancion_7.imagen = "morocha.png";
 cancion_7.genero = "Cuarteto";
 
-const cancion_8 new Cancion("Big One ft. FMK", "Un Finde");
+const cancion_8 = new Cancion("Big One ft. FMK", "Un Finde");
 cancion_8.enlace = "https://youtu.be/d2HmiKVoTNA";
 cancion_8.lanzamiento = 2023;
 cancion_8.genero = "Cumbiaton";
