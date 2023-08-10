@@ -146,8 +146,13 @@ cancion_11.imagen = "dia_cero.jpg";
 cancion_11.lanzamiento = 2012;
 cancion_11.genero = "Pop";
 
+const cancion_12 = new Cancion("Soda Stereo", "Persiana Americana");
+cancion_12.imagen = "americana.png";
+cancion_12.genero = "Rock";
+cancion_12.lanzamiento = 1986;
+
 // Creo arreglo con objetos que instancian a Cancion
-const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7, cancion_8, cancion_9, cancion_10, cancion_11];
+const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7, cancion_8, cancion_9, cancion_10, cancion_11, cancion_12, cancion_13, cancion_14, cancion_15, cancion_16, cancion_17, cancion_18];
 // Creo instancias visualizadoras para cada canción y la muestro
 for (vista in canciones)
 {
