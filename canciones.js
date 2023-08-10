@@ -113,11 +113,13 @@ cancion_5.genero = "Electro House";
 
 const cancion_6 = new Cancion("Yas Gagliardi", "Mi Futuro es Hoy");
 cancion_6.enlace = "";
+cancion_6.lanzamiento = "2023";
 cancion_6.imagen = "futuro.png";
 cancion_6.genero = "Pop";
 
 const cancion_7 = new Cancion("Luck Ra", "La Morocha");
 cancion_7.enlace = "";
+cancion_7.lanzamiento = 2023
 cancion_7.imagen = "morocha.png";
 cancion_7.genero = "Cuarteto";
 
@@ -126,7 +128,7 @@ const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancio
 // Creo instancias visualizadoras para cada canción y la muestro
 for (vista in canciones)
 {
-   const let cancion = new Visualizador(vista);
+   let cancion = new Visualizador(vista);
    cancion.mostrar();
 }
 // Cargo todos los elementos a manipular
