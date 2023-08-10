@@ -123,8 +123,13 @@ cancion_7.lanzamiento = 2023
 cancion_7.imagen = "morocha.png";
 cancion_7.genero = "Cuarteto";
 
+const cancion_8 new Cancion("Big One ft. FMK", "Un Finde");
+cancion_8.enlace = "https://youtu.be/d2HmiKVoTNA";
+cancion_8.lanzamiento = 2023;
+cancion_8.genero = "Cumbiaton";
+
 // Creo arreglo con objetos que instancian a Cancion
-const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7];
+const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7, cancion_8];
 // Creo instancias visualizadoras para cada canción y la muestro
 for (vista in canciones)
 {
