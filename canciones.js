@@ -159,7 +159,7 @@ cancion_13.lanzamiento = 2020;
 cancion_13.enlace = "https://www.youtube.com/watch?v=5L6xyaeiV58";
 
 const cancion_14 = new Cancion("La Oreja De Van Gogh", "Cometas Por El Cielo");
-cancion_14.imagen = "cometas.jpg";
+cancion_14.imagen = "cometas.png";
 cancion_14.genero = "Pop";
 cancion_14.lanzamiento = 2011;
 cancion_14.enlace = "https://www.youtube.com/watch?v=j7FIquNQqkc";
