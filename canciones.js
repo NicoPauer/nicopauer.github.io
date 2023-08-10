@@ -130,7 +130,7 @@ cancion_8.genero = "Cumbiaton";
 
 const cancion_9 = new Cancion("Avicii", "Waiting For Love");
 cancion_9.enlace = "https://youtu.be/-ncIVUXZla8";
-cancion_9.imagen = "waiting.jpeg";
+cancion_9.imagen = "waiting.png";
 cancion_9.lanzamiento = 2015;
 cancion_9.genero = "Progressive House";
 
@@ -140,8 +140,14 @@ cancion_10.imagen = "verano.png";
 cancion_10.lanzamiento = 2016;
 cancion_10.genero = "Pop";
 
+const cancion_11 = new Cancion("La Oreja De Van Gogh", "Dia Cero");
+cancion_11.enlace = "https://www.youtube.com/watch?v=nVCJ0wyw1ZA";
+cancion_11.imagen = "dia_cero.png";
+cancion_11.lanzamiento = 2012;
+cancion_11.genero = "Pop";
+
 // Creo arreglo con objetos que instancian a Cancion
-const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7, cancion_8, cancion_9, cancion_10];
+const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7, cancion_8, cancion_9, cancion_10, cancion_11];
 // Creo instancias visualizadoras para cada canción y la muestro
 for (vista in canciones)
 {
