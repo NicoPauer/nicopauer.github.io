@@ -153,7 +153,7 @@ cancion_12.lanzamiento = 1986;
 cancion_12.enlace = "https://www.youtube.com/watch?v=Z3L5M7GHAkw";
 
 const cancion_13 = new Cancion("Lady Gaga", "Stupid Love");
-cancion_13.imagen = ".png";
+cancion_13.imagen = "lady_gaga_stupid_love.png";
 cancion_13.genero = "Pop";
 cancion_13.lanzamiento = 2020;
 cancion_13.enlace = "https://www.youtube.com/watch?v=5L6xyaeiV58";
@@ -164,29 +164,29 @@ cancion_14.genero = "Pop";
 cancion_14.lanzamiento = 2011;
 cancion_14.enlace = "https://www.youtube.com/watch?v=j7FIquNQqkc";
 
-const cancion_15 = new Cancion("", "");
-cancion_15.imagen = ".png";
+const cancion_15 = new Cancion("Miranda", "Fantasmas");
+cancion_15.imagen = "fantasma.png";
 cancion_15.genero = "Pop";
-cancion_15.lanzamiento = 20;
-cancion_15.enlace = "";
+cancion_15.lanzamiento = 2014;
+cancion_15.enlace = "https://www.youtube.com/watch?v=0YkKqfod4jo";
 
-const cancion_16 = new Cancion("", "");
-cancion_16.imagen = ".png";
+const cancion_16 = new Cancion("Coldplay ft. BTS", "My Universe");
+cancion_16.imagen = "universe.png";
 cancion_16.genero = "Pop";
-cancion_16.lanzamiento = 20;
-cancion_16.enlace = "";
+cancion_16.lanzamiento = 2023;
+cancion_16.enlace = "https://www.youtube.com/watch?v=3YqPKLZF_WU";
 
-const cancion_17 = new Cancion("", "");
-cancion_17.imagen = ".png";
-cancion_17.genero = "Pop";
-cancion_17.lanzamiento = 20;
-cancion_17.enlace = "";
+const cancion_17 = new Cancion("La Beriso", "Madrugada");
+cancion_17.imagen = "madrugada.png";
+cancion_17.genero = "Rock";
+cancion_17.lanzamiento = 2015;
+cancion_17.enlace = "https://www.youtube.com/watch?v=qkkG6g6vT34";
 
-const cancion_18 = new Cancion("", "");
-cancion_18.imagen = ".png";
-cancion_18.genero = "Pop";
-cancion_18.lanzamiento = 20;
-cancion_18.enlace = "";
+const cancion_18 = new Cancion("La Konga ft. Nahuel Pennisi", "Universo Paralelo");
+cancion_18.imagen = "paralelo.png";
+cancion_18.genero = "Cuarteto";
+cancion_18.lanzamiento = 2022;
+cancion_18.enlace = "https://www.youtube.com/watch?v=T6Es4yNHEIM";
 
 // Creo arreglo con objetos que instancian a Cancion
 const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7, cancion_8, cancion_9, cancion_10, cancion_11, cancion_12, cancion_13, cancion_14, cancion_15, cancion_16, cancion_17, cancion_18];
