@@ -124,7 +124,11 @@ cancion_7.genero = "Cuarteto";
 // Creo arreglo con objetos que instancian a Cancion
 const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7];
 // Creo instancias visualizadoras para cada canción y la muestro
-canciones.map((new Visualizador()).mostrar()); 
+for (vista in canciones)
+{
+   const let cancion = new Visualizador(vista);
+   cancion.mostrar();
+}
 // Cargo todos los elementos a manipular
 const grillaDeCanciones = document.getElementById("canciones");
 // Obtengo solo enlaces de la grilla de canciones
