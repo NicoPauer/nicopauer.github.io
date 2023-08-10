@@ -142,7 +142,7 @@ cancion_10.genero = "Pop";
 
 const cancion_11 = new Cancion("La Oreja De Van Gogh", "Dia Cero");
 cancion_11.enlace = "https://www.youtube.com/watch?v=nVCJ0wyw1ZA";
-cancion_11.imagen = "dia_cero.png";
+cancion_11.imagen = "dia_cero.jpg";
 cancion_11.lanzamiento = 2012;
 cancion_11.genero = "Pop";
 
