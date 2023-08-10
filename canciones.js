@@ -112,13 +112,13 @@ cancion_5.imagen = "alone.png";
 cancion_5.genero = "Electro House";
 
 const cancion_6 = new Cancion("Yas Gagliardi", "Mi Futuro es Hoy");
-cancion_6.enlace = "";
+cancion_6.enlace = "https://www.youtube.com/watch?v=29i66Dn1d84";
 cancion_6.lanzamiento = "2023";
 cancion_6.imagen = "futuro.png";
 cancion_6.genero = "Pop";
 
 const cancion_7 = new Cancion("Luck Ra", "La Morocha");
-cancion_7.enlace = "";
+cancion_7.enlace = "https://www.youtube.com/watch?v=mo7MpQZRd5Q";
 cancion_7.lanzamiento = 2023
 cancion_7.imagen = "morocha.png";
 cancion_7.genero = "Cuarteto";
@@ -128,8 +128,20 @@ cancion_8.enlace = "https://youtu.be/d2HmiKVoTNA";
 cancion_8.lanzamiento = 2023;
 cancion_8.genero = "Cumbiaton";
 
+const cancion_9 = new Cancion("Avicii", "Waiting For Love");
+cancion_9.enlace = "https://youtu.be/-ncIVUXZla8";
+cancion_9.imagen = "waiting.jpeg";
+cancion_9.lanzamiento = 2015;
+cancion_9.genero = "Progressive House";
+
+const cancion_10 = new Cancion("La Oreja De Van Gogh", "Verano");
+cancion_10.enlace = "https://www.youtube.com/watch?v=MGB736cazVs";
+cancion_10.imagen = "verano.png";
+cancion_10.lanzamiento = 2016;
+cancion_10.genero = "Pop";
+
 // Creo arreglo con objetos que instancian a Cancion
-const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7, cancion_8];
+const canciones = [cancion_1, cancion_2, cancion_3, cancion_4, cancion_5, cancion_6, cancion_7, cancion_8, cancion_9, cancion_10];
 // Creo instancias visualizadoras para cada canción y la muestro
 for (vista in canciones)
 {
